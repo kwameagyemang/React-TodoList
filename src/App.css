@@ -1,0 +1,46 @@
+.container {
+  background: linear-gradient(to right bottom,grey, #3f3160);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#form {
+  background-color:linear-gradient rgb(35, 97, 117);
+  min-width: 550px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 10px;
+
+}
+
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #ccc;
+  background-color: #000000;
+  border: 1px solid rgb(35, 97, 117);
+  box-shadow: 3px 6px 40px #000;
+  border-radius: 10px;
+}
+
+
+.preview {
+  background-color: lightblue;
+  margin: 1%;
+  padding: 1%;
+}
+
+.headline {
+  background-color: lightblue;
+  text-align: center;
+}
